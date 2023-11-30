@@ -31,12 +31,16 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-		<_Standard Include="$(ProjectDir)/Standard/*.*" />
+		<_Standard Include="$(ProjectDir)/Icons/Standard/*.svg" />
+		<_Dark Include="$(ProjectDir)/Icons/Dark/*.svg" />
+		<_Colored Include="$(ProjectDir)/Icons/Colored/*.svg" />
 	</ItemGroup>
 	<Target Name="DeployToModDirectory" AfterTargets="Build">
 		<PropertyGroup>
 			<DeployDir>$(USERPROFILE)/AppData/LocalLow/Colossal Order/Cities Skylines II/Mods/WorkInProgress/$(SolutionName)</DeployDir>
 		</PropertyGroup>
-		<Copy SourceFiles="@(_Standard)" DestinationFolder="$(DeployDir)/Standard" />
+		<Copy SourceFiles="@(_Standard)" DestinationFolder="$(DeployDir)/Icons/Standard" />
+		<Copy SourceFiles="@(_Dark)" DestinationFolder="$(DeployDir)/Icons/Dark" />
+		<Copy SourceFiles="@(_Colored)" DestinationFolder="$(DeployDir)/Icons/Colored" />
 	</Target>
 </Project>
