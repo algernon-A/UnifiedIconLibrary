@@ -90,7 +90,7 @@ namespace LineTool
 
             // Add mod UI resource directory to UI resource handler.
             GameUIResourceHandler uiResourceHandler = GameManager.instance.userInterface.view.uiSystem.resourceHandler as GameUIResourceHandler;
-            uiResourceHandler?.HostLocationsMap.Add("uil", new System.Collections.Generic.List<string> { Mod.Instance.AssemblyPath + "/Standard" });
+            uiResourceHandler?.HostLocationsMap.Add("uil", new System.Collections.Generic.List<string> { AssemblyPath + "/Icons/" });
         }
 
         /// <summary>
