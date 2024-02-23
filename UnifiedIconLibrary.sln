@@ -1,22 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34309.116
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifiedIconLibrary", "UnifiedIconLibrary.csproj", "{2DE4431F-A667-47BB-853A-FCED9C50C177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifiedIconLibrary", "UnifiedIconLibrary.csproj", "{3C74ED65-C13D-459A-8C4B-5955C75C9E5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Steam|Any CPU = Steam|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DE4431F-A667-47BB-853A-FCED9C50C177}.Steam|Any CPU.ActiveCfg = Steam|Any CPU
-		{2DE4431F-A667-47BB-853A-FCED9C50C177}.Steam|Any CPU.Build.0 = Steam|Any CPU
+		{3C74ED65-C13D-459A-8C4B-5955C75C9E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C74ED65-C13D-459A-8C4B-5955C75C9E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C74ED65-C13D-459A-8C4B-5955C75C9E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C74ED65-C13D-459A-8C4B-5955C75C9E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {94062291-C24B-43E9-B0A3-82BB3CF0882D}
+		SolutionGuid = {D7B62732-E913-4A40-9FF2-911C5E1FE9C7}
 	EndGlobalSection
 EndGlobal

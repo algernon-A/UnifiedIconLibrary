@@ -4,25 +4,35 @@
 		<AssemblyTitle>$(Title)</AssemblyTitle>
 		<Description>A Cities: Skylines 2 mod.</Description>
 		<Authors>algernon</Authors>
-		<Copyright>Copyright © 2023 algernon (github.com/algernon-A). All rights reserved.</Copyright>
+		<Copyright>Copyright © 2023-24 algernon (github.com/algernon-A). All rights reserved.</Copyright>
 		<Product>$(Title)</Product>
 		<Version>0.0.2</Version>
-		<LangVersion>9.0</LangVersion>
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<TargetFramework>net472</TargetFramework>
+		<LangVersion>9.0</LangVersion>
+		<Configurations>Debug;Release</Configurations>
+		<PDXAccountDataPath>$(USERPROFILE)\Documents\pdx_account.txt</PDXAccountDataPath>
+		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
 	</PropertyGroup>
 
-	<Import Project="Config/Postbuild.csproj" />
-	<Import Project="Config/Targets.csproj" />
 	<Import Project="Config/References.csproj" />
+	<Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props" />
+	<Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.targets" />
+
+	<ItemGroup>
+		<None Include="$(ModPropsFile)" Link="Properties/Mod.props" />
+		<None Include="$(ModTargetsFile)" Link="Properties/Mod.targets" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="Config/References.csproj" />
+	</ItemGroup>
 	
 	<ItemGroup>
 		<AdditionalFiles Include="stylecop.json" />
 	</ItemGroup>
-	<ItemGroup>
-		<None Include="Config/PostBuild.csproj" />
-		<None Include="Config/References.csproj" />
-		<None Include="Config/Targets.csproj" />
-	</ItemGroup>
+	
 	<ItemGroup>
 		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
 			<PrivateAssets>all</PrivateAssets>
@@ -42,5 +52,9 @@
 		<Copy SourceFiles="@(_Standard)" DestinationFolder="$(DeployDir)/Icons/Standard" />
 		<Copy SourceFiles="@(_Dark)" DestinationFolder="$(DeployDir)/Icons/Dark" />
 		<Copy SourceFiles="@(_Colored)" DestinationFolder="$(DeployDir)/Icons/Colored" />
+	</Target>
+
+	<Target Name="SetDescription" BeforeTargets="BeforeBuild">
+		<XmlPoke XmlInputPath="$(PublishConfigurationPath)" Value="$([System.IO.File]::ReadAllText($(ProjectDir)/Properties/LongDescription.md)))" Query="//LongDescription" />
 	</Target>
 </Project>

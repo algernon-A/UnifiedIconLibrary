@@ -2,7 +2,7 @@
 // Copyright (c) algernon (K. Algernon A. Sheppard). All rights reserved.
 // </copyright>
 
-namespace LineTool
+namespace UnifiedIconLibrary
 {
     using System.IO;
     using System.Reflection;
@@ -83,7 +83,7 @@ namespace LineTool
 
             // Add mod UI resource directory to UI resource handler.
             GameUIResourceHandler uiResourceHandler = GameManager.instance.userInterface.view.uiSystem.resourceHandler as GameUIResourceHandler;
-            uiResourceHandler?.HostLocationsMap.Add("uil", new System.Collections.Generic.List<string> { AssemblyPath + "/Icons/" });
+            //uiResourceHandler?.HostLocationsMap.Add("uil", new System.Collections.Generic.List<string> { AssemblyPath + "/Icons/" });
         }
 
         /// <summary>
