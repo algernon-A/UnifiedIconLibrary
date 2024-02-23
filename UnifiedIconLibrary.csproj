@@ -45,10 +45,7 @@
 		<_Dark Include="$(ProjectDir)/Icons/Dark/*.svg" />
 		<_Colored Include="$(ProjectDir)/Icons/Colored/*.svg" />
 	</ItemGroup>
-	<Target Name="DeployToModDirectory" AfterTargets="Build">
-		<PropertyGroup>
-			<DeployDir>$(USERPROFILE)/AppData/LocalLow/Colossal Order/Cities Skylines II/Mods/WorkInProgress/$(SolutionName)</DeployDir>
-		</PropertyGroup>
+	<Target Name="CopyIcons" AfterTargets="AfterBuild">
 		<Copy SourceFiles="@(_Standard)" DestinationFolder="$(DeployDir)/Icons/Standard" />
 		<Copy SourceFiles="@(_Dark)" DestinationFolder="$(DeployDir)/Icons/Dark" />
 		<Copy SourceFiles="@(_Colored)" DestinationFolder="$(DeployDir)/Icons/Colored" />

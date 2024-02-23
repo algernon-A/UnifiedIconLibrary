@@ -8,10 +8,9 @@ namespace UnifiedIconLibrary
     using System.Reflection;
     using Colossal.IO.AssetDatabase;
     using Colossal.Logging;
+    using Colossal.UI;
     using Game;
     using Game.Modding;
-    using Game.SceneFlow;
-    using Game.UI;
 
     /// <summary>
     /// The base mod class for instantiation by the game.
@@ -82,8 +81,7 @@ namespace UnifiedIconLibrary
             Log.Info($"loading {ModName} version {Assembly.GetExecutingAssembly().GetName().Version}");
 
             // Add mod UI resource directory to UI resource handler.
-            GameUIResourceHandler uiResourceHandler = GameManager.instance.userInterface.view.uiSystem.resourceHandler as GameUIResourceHandler;
-            //uiResourceHandler?.HostLocationsMap.Add("uil", new System.Collections.Generic.List<string> { AssemblyPath + "/Icons/" });
+            UIManager.defaultUISystem.AddHostLocation("uil",  AssemblyPath + "/Icons/");
         }
 
         /// <summary>
