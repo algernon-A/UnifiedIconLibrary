@@ -67,26 +67,19 @@ namespace LineTool
         /// <summary>
         /// Called by the game when the mod is loaded.
         /// </summary>
-        public void OnLoad()
+        /// <param name="updateSystem">Game update system.</param>
+        public void OnLoad(UpdateSystem updateSystem)
         {
             // Set instance reference.
             Instance = this;
 
             // Initialize logger.
             Log = LogManager.GetLogger(ModName);
+#if DEBUG
             Log.Info("setting logging level to Debug");
             Log.effectivenessLevel = Level.Debug;
-
-            Log.Info("loading");
-        }
-
-        /// <summary>
-        /// Called by the game when the game world is created.
-        /// </summary>
-        /// <param name="updateSystem">Game update system.</param>
-        public void OnCreateWorld(UpdateSystem updateSystem)
-        {
-            Log.Info("starting OnCreateWorld");
+#endif
+            Log.Info($"loading {ModName} version {Assembly.GetExecutingAssembly().GetName().Version}");
 
             // Add mod UI resource directory to UI resource handler.
             GameUIResourceHandler uiResourceHandler = GameManager.instance.userInterface.view.uiSystem.resourceHandler as GameUIResourceHandler;
