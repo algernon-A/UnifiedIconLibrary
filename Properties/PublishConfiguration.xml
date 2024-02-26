@@ -21,7 +21,9 @@ The initial styles are Standard, Dark, and Colored.  More will be added later.  
   <!--Thumbnail-->
   <Thumbnail Value="Properties/Thumbnail.png" />
   <!--Screenshot, can be set multiple-->
-  <Screenshot Value="" />
+  <Screenshot Value="Properties/Previews/PreviewStandard.png" />
+  <Screenshot Value="Properties/Previews/PreviewDark.png" />
+  <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <!--Tag, can be set multiple-->
   <Tag Value="Code Mod" />
   <!--Link to the forum post where the mod can be discussed-->
