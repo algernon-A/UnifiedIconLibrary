@@ -17,7 +17,7 @@ This doesn't do anything unless you have a mod that uses it, in which case it's 
 
 All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  For more details, see the GitHub page.
 
-The initial styles are Standard, Dark, and Colored.  More will be added later.  Requests for new styles are welcome!)</LongDescription>
+The initial styles are Standard, Dark, and Colored.  More will be added later.  Requests for new styles are welcome!</LongDescription>
   <!--Thumbnail-->
   <Thumbnail Value="Properties/Thumbnail.png" />
   <!--Screenshot, can be set multiple-->
@@ -37,7 +37,7 @@ The initial styles are Standard, Dark, and Colored.  More will be added later.  
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <!--ChangeLog Value="Update publish configuration." /-->
   <ChangeLog>### 0.9
-- Update for game version 1.0.22.)</ChangeLog>
+- Update for game version 1.0.22.</ChangeLog>
   <!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
   <ExternalLink Type="github" Url="https://github.com/algernon-A/UnifiedIconLibrary" />
   <ExternalLink Type="discord" Url="https://discord.gg/7rTsfUdfTf" />
