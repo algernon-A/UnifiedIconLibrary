@@ -1,5 +1,8 @@
+### 1.0.1
+- Add wall-to-wall icon.
+
 ### 1.0
-- Update for game version 1.1.
+- Full release update.
 
 ### 0.9
 - Update for game version 1.0.22.

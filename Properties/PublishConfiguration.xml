@@ -19,14 +19,10 @@ The initial styles are Standard, Dark, and Colored.  More will be added later.  
   <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="" />
-  <ModVersion Value="1.0" />
-  <GameVersion Value="1.*.*" />
+  <ModVersion Value="1.0.1" />
+  <GameVersion Value="1.*" />
   <Dependency Id="" DisplayName="" Version="" />
-  <ChangeLog>### 1.0
-- Update for game version 1.1.
-
-### 0.9
-- Update for game version 1.0.22.</ChangeLog>
+  <ChangeLog>- Add wall-to-wall icon.</ChangeLog>
   <ExternalLink Type="github" Url="https://github.com/algernon-A/UnifiedIconLibrary" />
   <ExternalLink Type="discord" Url="https://discord.gg/7rTsfUdfTf" />
 </Publish>

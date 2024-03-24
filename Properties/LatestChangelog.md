@@ -1,0 +1,1 @@
+- Add wall-to-wall icon.
