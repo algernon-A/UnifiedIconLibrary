@@ -18,7 +18,7 @@ The initial styles are Standard, Dark, and Colored.  More will be added later.  
   <Screenshot Value="Properties/Previews/PreviewDark.png" />
   <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <Tag Value="Code Mod" />
-  <ForumLink Value="" />
+  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/unified-icon-library.1644739/" />
   <ModVersion Value="1.0.1" />
   <GameVersion Value="1.*" />
   <Dependency Id="" DisplayName="" Version="" />
