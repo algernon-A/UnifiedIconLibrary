@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <rect x="30.621" y="36.039" width="4.758" height="20" style="fill:#754600;"/>
-    <g id="surface1">
-        <path d="M31.488,23.973C31.711,23.422 32.316,23.051 33,23.051C33.68,23.051 34.289,23.422 34.508,23.973L44.23,48.348C44.289,48.488 44.316,48.637 44.316,48.789C44.316,49.535 43.598,50.148 42.723,50.148L23.277,50.148C22.402,50.148 21.684,49.535 21.684,48.789C21.684,48.641 21.711,48.488 21.77,48.352L31.488,23.973Z" style="fill:#274100;fill-rule:nonzero;"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 64 64">
+  <g id="brown">
+    <rect width="4.758" height="5.891" x="29.621" y="42.603" fill="#754600"/>
+  </g>
+  <g id="green">
+    <path fill="#274100" fill-rule="nonzero" d="M30.488 16.428c.223-.551.828-.922 1.512-.922.68 0 1.289.371 1.508.922l9.722 24.375c.059.14.086.289.086.441 0 .746-.718 1.359-1.593 1.359H22.277c-.875 0-1.593-.613-1.593-1.359 0-.148.027-.301.086-.437l9.718-24.379Z"/>
+  </g>
 </svg>

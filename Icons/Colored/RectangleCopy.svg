@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g id="surface1">
-        <path d="M24,16C21.805,16 20,17.805 20,20L20,56C20,58.195 21.805,60 24,60L52,60C54.195,60 56,58.195 56,56L56,20C56,17.805 54.195,16 52,16L24,16ZM28,24L48,24L48,52L28,52L28,24Z" style="fill:#f3f4f4;fill-rule:nonzero;"/>
-        <path d="M12,4C9.789,4 8,5.789 8,8L8,42C8,44.195 9.805,46 12,46L16,46L16,12L40,12L40,8C40,5.805 38.195,4 36,4L12,4Z" style="fill:#b5b5b5;fill-rule:nonzero;"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 64 64">
+  <g id="white">
+    <path fill="#f4f4f4" fill-rule="nonzero" d="M24 16c-2.195 0-4 1.805-4 4v36c0 2.195 1.805 4 4 4h28c2.195 0 4-1.805 4-4V20c0-2.195-1.805-4-4-4H24Zm4 8h20v28H28V24Z"/>
+  </g>
+  <g id="grey">
+    <path fill="#b5b5b5" fill-rule="nonzero" d="M12 4C9.789 4 8 5.789 8 8v34c0 2.195 1.805 4 4 4h4V12h24V8c0-2.195-1.805-4-4-4H12Z"/>
+  </g>
 </svg>

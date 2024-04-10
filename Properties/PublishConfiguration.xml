@@ -7,7 +7,6 @@ This is a mod that provides several collections of icons matching the game's UI 
 
 This doesn't do anything unless you have a mod that uses it, in which case it's required.
 
-
 ### Modders
 
 All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  For more details, see the GitHub page.
@@ -19,10 +18,10 @@ The initial styles are Standard, Dark, and Colored.  More will be added later.  
   <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/unified-icon-library.1644739/" />
-  <ModVersion Value="1.0.1" />
+  <ModVersion Value="1.0.2" />
   <GameVersion Value="1.*" />
   <Dependency Id="" DisplayName="" Version="" />
-  <ChangeLog>- Add wall-to-wall icon.</ChangeLog>
+  <ChangeLog>- Add additional icons.</ChangeLog>
   <ExternalLink Type="github" Url="https://github.com/algernon-A/UnifiedIconLibrary" />
   <ExternalLink Type="discord" Url="https://discord.gg/HTav7ARPs2" />
 </Publish>

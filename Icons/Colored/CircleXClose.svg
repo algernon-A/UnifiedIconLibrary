@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
-    <g id="Advisor">
-        <g id="Info">
-            <circle cx="32" cy="32" r="23" style="fill:none;stroke:#575757;stroke-width:6px;"/>
-        </g>
-    </g>
-    <g id="Layer1">
-        <path d="M20.964,44.038L30.276,31.491L22.064,19.962L25.858,19.962L30.226,26.137C31.135,27.418 31.781,28.403 32.164,29.093C32.701,28.217 33.336,27.303 34.069,26.351L38.914,19.962L42.379,19.962L33.921,31.31L43.036,44.038L39.095,44.038L33.035,35.449C32.695,34.956 32.345,34.42 31.984,33.839C31.447,34.715 31.064,35.317 30.834,35.646L24.79,44.038L20.964,44.038Z" style="fill:#ff2721;fill-rule:nonzero;stroke:#ff2721;stroke-width:1.5px;stroke-linejoin:round;stroke-miterlimit:2;"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 64 64">
+  <g id="grey">
+    <path fill="#575757" d="M32 6c14.35 0 26 11.65 26 26S46.35 58 32 58 6 46.35 6 32 17.65 6 32 6Zm0 6c-11.038 0-20 8.962-20 20s8.962 20 20 20 20-8.962 20-20-8.962-20-20-20Z"/>
+  </g>
+  <g id="red">
+    <path fill="#ff2721" fill-rule="nonzero" stroke="#ff2721" stroke-width="1.5px" d="m20.964 44.038 9.312-12.547-8.212-11.529h3.794l4.368 6.175c.909 1.281 1.555 2.266 1.938 2.956a31.57 31.57 0 0 1 1.905-2.742l4.845-6.389h3.465L33.921 31.31l9.115 12.728h-3.941l-6.06-8.589c-.34-.493-.69-1.029-1.051-1.61-.537.876-.92 1.478-1.15 1.807l-6.044 8.392h-3.826Z"/>
+  </g>
 </svg>
