@@ -10,7 +10,7 @@ This doesn't do anything unless you have a mod that uses it, in which case it's 
 
 ### Modders
 
-All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  Typically, this would form the `src` attribute of a relevant UI element (e.g. `src="coui://Standard/ArrowLeft.svg"`).
+All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  Typically, this would form the `src` attribute of a relevant UI element (e.g. `src="coui://uil/Standard/ArrowLeft.svg"`).
 
 The initial styles are Standard (matches the game UI), Dark (dark theme), and Colored (more colorful versions).  Requests for new styles are welcome!
 
