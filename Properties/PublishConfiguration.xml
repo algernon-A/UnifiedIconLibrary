@@ -9,7 +9,7 @@ This doesn't do anything unless you have a mod that uses it, in which case it's 
 
 ### Modders
 
-All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  For more details, see the GitHub page, or contact me on the Cities: Skylines 
+All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  For more details, see the GitHub page.
 
 The initial styles are Standard, Dark, and Colored.  More will be added later.  Requests for new styles are welcome!</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
@@ -18,7 +18,7 @@ The initial styles are Standard, Dark, and Colored.  More will be added later.  
   <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/unified-icon-library.1644739/" />
-  <ModVersion Value="1.0.2" />
+  <ModVersion Value="1.0.3" />
   <GameVersion Value="1.*" />
   <Dependency Id="" DisplayName="" Version="" />
   <ChangeLog>- Add additional icons.</ChangeLog>

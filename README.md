@@ -12,6 +12,9 @@ This doesn't do anything unless you have a mod that uses it, in which case it's 
 
 All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  Typically, this would form the `src` attribute of a relevant UI element (e.g. `src="coui://uil/Standard/ArrowLeft.svg"`).
 
+I'm available for direfct contact on the Cities: Skylines modding discord, including for tailored advice for your specific situation - as always, I'm happy to help out any modders, new or old! 
+
+
 The initial styles are Standard (matches the game UI), Dark (dark theme), and Colored (more colorful versions).  Requests for new styles are welcome!
 
 The full list of icons and themes can be seen in the [`Icons` directory of this repository](https://github.com/algernon-A/UnifiedIconLibrary/tree/master/Icons).
