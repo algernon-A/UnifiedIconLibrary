@@ -4,7 +4,7 @@
   </g>
   <g id="brown">
     <g>
-      <rect width="6" height="9" x="29" y="44" fill="#aa7850"/>
+      <path fill="#aa7850" d="M29 44h6v9h-6z"/>
     </g>
     <path fill="#af905e" d="M56 13v43H8V13c0-2.76 2.24-5 5-5h38c2.76 0 5 2.24 5 5Zm-3 0c0-1.097-.903-2-2-2H13c-1.097 0-2 .903-2 2v40h42V13Z"/>
   </g>

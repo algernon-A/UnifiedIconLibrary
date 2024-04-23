@@ -4,6 +4,6 @@
   </g>
   <g id="black">
     <path d="M51 23v33H13V23c0-2.76 2.24-5 5-5h28c2.76 0 5 2.24 5 5Zm-3 0a2 2 0 0 0-2-2H18a2 2 0 0 0-2 2v30h32V23Z"/>
-    <rect width="6" height="9" x="29" y="44"/>
+    <path d="M29 44h6v9h-6z"/>
   </g>
 </svg>

@@ -3,7 +3,7 @@
     <path fill="#575757" d="M30.5 30v9h-6v-9h6Zm9 0v9h-6v-9h6Zm9 0v9h-6v-9h6Zm-27 0v9h-6v-9h6Zm9-14v9h-6v-9h6Zm9 0v9h-6v-9h6Zm9 0v9h-6v-9h6Zm-27 0v9h-6v-9h6Z"/>
   </g>
   <g id="black">
-    <rect width="6" height="9" x="29" y="44"/>
+    <path d="M29 44h6v9h-6z"/>
     <path d="M56 13v43H8V13c0-2.76 2.24-5 5-5h38c2.76 0 5 2.24 5 5Zm-3 0a2 2 0 0 0-2-2H13a2 2 0 0 0-2 2v40h42V13Z"/>
   </g>
 </svg>
