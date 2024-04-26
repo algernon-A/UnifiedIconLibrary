@@ -3,7 +3,7 @@ This is a mod that provides several collections of icons matching the game's UI 
 
 This doesn't do anything unless you have a mod that uses it, in which case it's required.
 
-The icons themselves have been specially crafted by Chamëleon TBN to blend in seamlessly with the game.
+The icons themselves have been specially crafted by Chameleon TBN to blend in seamlessly with the game.
 
 ## Modders
 All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/StyleName/IconName.  Typically, this would form the `src` attribute of a relevant UI element (e.g. `src="coui://uil/Standard/ArrowLeft.svg"`).
