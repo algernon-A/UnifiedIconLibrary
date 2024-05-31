@@ -1,3 +1,6 @@
+### 1.0.8
+- Add additional icons.
+
 ### 1.0.7
 - Add additional icons.
 
