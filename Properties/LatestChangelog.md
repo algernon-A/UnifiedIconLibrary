@@ -1,1 +1,1 @@
-- Add additional icons.
+- Add globe icon.
