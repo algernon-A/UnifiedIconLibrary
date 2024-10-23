@@ -1,1 +1,1 @@
-- Add globe icon.
+- Update for game version 1.1.10f1.

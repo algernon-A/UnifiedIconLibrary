@@ -1,3 +1,6 @@
+### 1.0.10
+- Update for game version 1.1.10f1.
+
 ### 1.0.9
 - Add globe icon.
 
