@@ -1,1 +1,1 @@
-- Update for game version 1.1.10f1.
+- Add new icons.

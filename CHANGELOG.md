@@ -1,3 +1,6 @@
+### 1.0.11
+- Add new icons.
+
 ### 1.0.10
 - Update for game version 1.1.10f1.
 
