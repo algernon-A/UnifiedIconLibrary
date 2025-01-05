@@ -41,10 +41,10 @@ I'm available for direct contact on the Cities: Skylines modding discord, includ
   <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/unified-icon-library.1644739/" />
-  <ModVersion Value="1.0.11" />
+  <ModVersion Value="1.0.12" />
   <GameVersion Value="1.*" />
   <Dependency Id="" DisplayName="" Version="" />
-  <ChangeLog>- Add new icons.</ChangeLog>
+  <ChangeLog>- Add singnature and unique building icons.</ChangeLog>
   <ExternalLink Type="github" Url="https://github.com/algernon-A/UnifiedIconLibrary" />
   <ExternalLink Type="discord" Url="https://discord.gg/HTav7ARPs2" />
   <ExternalLink Type="kofi" Url="https://ko-fi.com/algernon" />

@@ -1,1 +1,1 @@
-- Add new icons.
+- Add singnature and unique building icons.

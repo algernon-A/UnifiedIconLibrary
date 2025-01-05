@@ -1,3 +1,6 @@
+### 1.0.12
+- Add singnature and unique building icons.
+
 ### 1.0.11
 - Add new icons.
 
