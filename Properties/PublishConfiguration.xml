@@ -41,7 +41,7 @@ I'm available for direct contact on the Cities: Skylines modding discord, includ
   <Screenshot Value="Properties/Previews/PreviewColor.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/unified-icon-library.1644739/" />
-  <ModVersion Value="1.0.12" />
+  <ModVersion Value="1.0.13" />
   <GameVersion Value="1.*" />
   <Dependency Id="" DisplayName="" Version="" />
   <ChangeLog>- Add singnature and unique building icons.</ChangeLog>

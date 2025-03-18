@@ -1,3 +1,6 @@
+### 1.0.13
+- Rebuild for game version 1.2.5.
+
 ### 1.0.12
 - Add signature and unique building icons.
 
