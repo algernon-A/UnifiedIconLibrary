@@ -1,1 +1,1 @@
-- Add singnature and unique building icons.
+- Add new elevation icons.

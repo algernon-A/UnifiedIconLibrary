@@ -1,3 +1,6 @@
+### 1.0.14
+- Add new elevation icons.
+
 ### 1.0.13
 - Rebuild for game version 1.2.5.
 
