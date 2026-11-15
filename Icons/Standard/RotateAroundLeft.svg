@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g id="surface1">
         <path d="M32,35.555C32,39.066 29.152,41.914 25.641,41.914C22.129,41.914 19.285,39.066 19.285,35.555C19.285,32.043 22.129,29.199 25.641,29.199C29.152,29.199 32,32.043 32,35.555Z" style="fill:#f4f4f4;"/>
