@@ -1,1 +1,1 @@
-- Add new elevation icons.
+- Remove external DTD DOCTYPE from SVG icons (thanks to lorenzo-pezzali).

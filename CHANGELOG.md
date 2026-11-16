@@ -1,3 +1,6 @@
+### 1.0.15
+- Remove external DTD DOCTYPE from SVG icons (thanks to lorenzo-pezzali).
+
 ### 1.0.14
 - Add new elevation icons.
 
